@@ -1,0 +1,317 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Web portofolio tailwind">
+    <meta name="keyword" content="tailwindcss, CSS, tailwind">
+    <meta name="author" content="codepolitan">
+    <title>Web Portofolio</title>
+    <link rel="stylesheet" type="text/css" href="output.css">
+    <link rel="stylesheet" href="https:use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <style>
+        .gradient {
+            background-image: linear-gradient(to bottom right, rgb(0, 230, 142), #0d56df);
+        }
+        
+        .gradient-angket {
+            background-image: linear-gradient(rgb(0, 230, 142), #0d56df);
+        }
+        
+        .gradient-bottom {
+            background-image: linear-gradient(#4C51BF, #702459);
+        }
+    </style>
+</head>
+
+<body>
+    <!--section navbar-->
+    <section class="w-screen mx-auto px-4">
+        <nav class="flex flex-wrap p-6 justify-between">
+            <!-- Logo -->
+            <div class="flex flex-shrink-0 mr-6">
+                <img src="img/logo.png" class="h-10 w-50 mr-2">
+            </div>
+
+            <!-- Menu -->
+            <div class="block lg:hidden">
+                <a class="flex items-center px-3 py-2 rounded border border-indigo-400 text-indigo-500 hover:text-indigo-700 hover:border-indigo-700">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                </a>
+            </div>
+            <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+                <div class="text-sm lg:flex-grow">
+                    <a href="#about" class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4">
+                        About me
+                    </a>
+                    <a href="#web" class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4">
+                        Front End
+                    </a>
+                    <a href="#design" class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4">
+                        Desiain
+                    </a>
+                    <a href="#electronic" class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4">
+                        Robotika
+                    </a>
+
+                    <a href="tas.html" class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-gray-900 text-lg mr-4">
+                        Penelitian
+                    </a>
+                </div>
+                <div>
+                    <a href="http://wa.me/6289606710829" class="inline-block text-sm px-4 py-2 rounded text-gray-600 border border-gray-600 hover:border-transpaent hover:text-white hover:bg-indigo-700 mt-4 lg:mt-0">
+                        Hubungi saya
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- end navbar -->
+
+    <!-- section about -->
+    <section id="about" class="w-screen mx-auto py-4 gradient">
+        <!-- sambutan -->
+
+        <div class="w-full">
+            <div class="px-4 py-4 ">
+                <!-- source image baby.jpg didownload dari situs unsplash.com, koleksi Troy T - @ttcollect -->
+                <img src="img/foto.jpg" class="shadow-lg rounded-full max-w-full mx-auto text-center w-48">
+            </div>
+        </div>
+        <div class="px-16 py-8 text-center text-white">
+            <h1 class="w-full text-5xl font-bold ">Hallo,</h1>
+            <div class="mb-4">
+                <div class="bg-blue-500 w-2/3 md:w-1/6 opacity-75 rounded h-1 mx-auto"></div>
+            </div>
+            <h2 class="text-3xl font-bold mb-2 ">
+                Saya Ubay, Senang bertemu anda.
+            </h2>
+            <h3 class="text-lg mb-2">
+                Saya suka mempelajari Robotika, Desain dan Pengembangan Website. Saya suka belajar dan berharap bisa memberikan manfaat untuk sesama.
+            </h3>
+
+        </div>
+        <!-- box portofolio -->
+        <div class="grid grid-cols-1 md:grid-cols-3 bg-white py-4 px-4 md:py-8 md:px-8 m-16 rounded-lg">
+            <!-- box pertama -->
+            <div class="max-w-sm shadow-lg px-4 py-4 bg-white m-3 text-center">
+                <i class="fas fa-laptop-code text-blue-500 fa-5x mb-6"></i>
+                <div class="p-4 ">
+                    <p class="font-bold text-lg md:text-xl mb-6">Front End Web. Dev.</p>
+                    <p class="text-gray-600 text-base mb-2">HTML & CSS</p>
+                    <hr class="text-gray-600 mb-2">
+                    <p class="text-gray-600 text-base mb-2">Bootstrap Framework</p>
+                    <hr class="text-gray-600 mb-2">
+                    <p class="text-gray-600 text-base mb-2">Tailwind Framework</p>
+                    <hr class="text-gray-600 mb-2">
+                    <p class="text-gray-600 text-base mb-2">Javasricpt</p>
+                    <hr class="text-gray-600 mb-2">
+
+                </div>
+
+                <div>
+                    <a href="#web" class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tl-lg rounded-br-lg">
+                        Project
+                    </a>
+                </div>
+
+
+            </div>
+
+            <!-- box kedua -->
+            <div class="max-w-sm shadow-lg px-4 py-4 bg-white m-3 text-center">
+                <i class="fas fa-pencil-ruler text-red-500 fa-5x mb-6"></i>
+                <div class="p-4 ">
+                    <p class="font-bold text-lg md:text-xl mb-6">Desain</p>
+                    <p class="text-gray-600 text-base mb-2">UX Design</p>
+                    <hr class="text-gray-600 mb-2">
+                    <p class="text-gray-600 text-base mb-2">UI Design</p>
+                    <hr class="text-gray-600 mb-2">
+                    <p class="text-gray-600 text-base mb-2">Desain Grafis</p>
+                    <hr class="text-gray-600 mb-2">
+                    <p class="text-gray-600 text-base mb-2">Edit foto digital</p>
+                    <hr class="text-gray-600 mb-2">
+                </div>
+
+            </div>
+
+            <!-- box ketiga -->
+            <div class="max-w-sm shadow-lg px-4 py-4 bg-white m-3 text-center">
+                <i class="fas fa-database text-green-500 fa-5x mb-6"></i>
+                <div class="p-4 ">
+                    <p class="font-bold text-lg md:text-xl mb-6">Robotika</p>
+                    <p class="text-gray-600 text-base mb-2">Arduino</p>
+                    <hr class="text-gray-600 mb-2">
+                    <p class="text-gray-600 text-base mb-2">NodeMCU</p>
+                    <hr class="text-gray-600 mb-2">
+                    <p class="text-gray-600 text-base mb-2">Internet of Things System</p>
+                    <hr class="text-gray-600 mb-2">
+                    <p class="text-gray-600 text-base mb-2">Sensor Aplication System</p>
+                    <hr class="text-gray-600 mb-2">
+                </div>
+                <div>
+                    <a href="#electronic" class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tl-lg rounded-br-lg">
+                         Project
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Design-->
+    <section id="design" class="w-screen mx-auto py-8 bg-white">
+
+
+        <div class="text-center mb-8">
+            <h1 class="w-full my-2 text-5xl font-bold text-gray-700">Design</h1>
+            <div class="mb-4">
+                <div class="h-1 mx-auto bg-pink-500  w-2/3 md:w-1/4 opacity-75 my-0 py-0 rounded"></div>
+            </div>
+            <p class="text-lg m-4 text-gray-600"></p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 m-8">
+
+            <div class="bg-white px-4 py-4 m-2 shadow-lg rounded">
+                <!-- source img1.jpg didownload dari situs unsplash.com, koleksi Clément H - @clemhlrdt-->
+                <img src="img/Group 2.png" class="w-full rounded-lg">
+                <div class="px-2 py-2 text-center">
+                    <p class="text-gray-700 text-base">Eksplorasi desain plikasi laundry online</p>
+                </div>
+
+            </div>
+
+            <div class="bg-white px-4 py-4 m-2 shadow-lg rounded">
+                <!-- source img1.jpg didownload dari situs unsplash.com, koleksi Clément H - @clemhlrdt-->
+                <img src="img/Group 23.png" class="w-full rounded-lg">
+                <div class="px-2 py-2 text-center">
+                    <p class="text-gray-700 text-base">Eksplorasi desain aplikasi laundry online</p>
+                </div>
+
+            </div>
+            <div class="bg-white px-4 py-4 m-2 shadow-lg rounded">
+                <!-- source img2.jpg didownload dari situs unsplash.com, koleksi NordWood Themes - @nordwood -->
+                <img src="img/Group 11.png" class="w-full rounded-lg">
+                <div class="px-2 py-2 text-center">
+                    <p class="text-gray-700 text-base">Eksplorasi desain aplikasi belanja bumbu</p>
+                </div>
+
+            </div>
+            <!-- source img4.jpg didownload dari situs unsplash.com, Jess Bailey - @jessbailey-->
+            <div class="bg-white px-4 py-4 m-2 shadow-lg rounded">
+                <img src="img/Group 3.png" class="w-full rounded-lg">
+                <div class="px-2 py-2 text-center">
+                    <p class="text-gray-700 text-base">Eksplorasi desain website pelayanan asuransi cyber crime</p>
+                </div>
+
+            </div>
+            <div class="bg-white px-4 py-4 m-2 shadow-lg rounded">
+                <!-- source img1.jpg didownload dari situs unsplash.com, koleksi Clément H - - @clemhlrdt -->
+                <img src="img/Group1.png" class="w-full rounded-lg">
+                <div class="px-2 py-2 text-center">
+                    <p class="text-gray-700 text-base">Eksplorasi desain website penyedia layanan travel lokal dan LN</p>
+                </div>
+
+            </div>
+            <div class="bg-white px-4 py-4 m-2 shadow-lg rounded">
+                <!-- source img1.jpg didownload dari situs unsplash.com, koleksi Clément H - - @clemhlrdt -->
+                <img src="img/Group 2.png" class="w-full rounded-lg">
+                <div class="px-2 py-2 text-center">
+                    <p class="text-gray-700 text-base">Eksplorasi desain website llatform untuk mecari pekerja freelance</p>
+                </div>
+            </div>
+
+            <div class="bg-white px-4 py-4 m-2 shadow-lg rounded">
+                <!-- source img1.jpg didownload dari situs unsplash.com, koleksi Clément H - - @clemhlrdt -->
+                <img src="img/Group 23.png" class="w-full rounded-lg">
+                <div class="px-2 py-2 text-center">
+                    <p class="text-gray-700 text-base"> Eksplorasi desain Aplikasi laundry online</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- penelitian-->
+    <section id="electronic" class="w-screen mx-auto py-8 bg-white">
+        <div class="text-center mb-8">
+            <h1 class="w-full my-2 text-5xl font-bold text-gray-700">Robotika</h1>
+            <div class="mb-4">
+                <div class="h-1 mx-auto bg-pink-500  w-2/3 md:w-1/4 opacity-75 my-0 py-0 rounded"></div>
+            </div>
+            <p class="text-lg m-4 text-gray-600"></p>
+        </div>
+
+        <section id="trainer" class="w-screen mx-auto py-4 bg-white shadow-lg">
+            <div class="flex flex-wrap">
+                <!-- box pertama menampilkan gambar -->
+                <div class="w-full md:w-7/12 ml-auto mr-auto px-4  m-4 bg-white rounded-lg py-4">
+                    <!-- source img4.jpg didownload dari situs unsplash.com, Jess Bailey - @jessbailey-->
+                    <img src="img/1.jpg" class="max-w-full rounded-lg shadow-lg">
+                    </p>
+                    <h1 class="font-bold text-gray-700 text-center py-2 "> Trainer Sensor berbasis arduino UNO & NodeMCU sebagai media pembelajaran Teknik Kontrol Sistem Mekatronik di Kompetensi Keahlian Teknik Mekatronika SMK N 1 Bawang </h1>
+                </div>
+
+                <!-- box kedua menampilkan skill framework -->
+                <div id="trainer" class="w-full md:w-5/12 ml-auto mr-auto px-4 m-4 bg-white rounded-lg">
+                    <div class="md:pr-12">
+                        <h1 class="w-full my-2 text-5xl font-bold text-center text-gray-700">Trainer Sensor</h1>
+                        <div class="mb-4">
+                            <div class="h-1 mx-auto bg-pink-500  w-2/3  opacity-75 my-0 mx-0 rounded"></div>
+                        </div>
+                        <h2 class="font-bold text-gray-700">Apa itu Trainer Sensor berbasis Arduino UNO dan NodeMCU? </h2>
+                        <p class="text-justify px-2">
+                            Yaitu sebuah media pembelajaran berupa Trainer yang dibuat dari susunan dari beberapa sensor, dan output serta mikrokontroler yang bertujuan untuk memudahkan proses ppembelajaran pada mata pelajaran teknik kontrol sistem mekatronik.
+                        </p>
+                        <h2 class="font-bold text-gray-700">Apa saja komponen utamanya?</h2>
+                        <p class="text-justify">
+                            Komponen sensor :
+                        </p>
+                        <p class="text-justify">
+                            1. Sensor Ultrasonic <br> 2.Sensor LDR <br> 3.Sensor Gas MQ-2 <br> 4. Sensor Suhu LM35 <br> 5. Sensor Api 6. Sensor DHT11
+                        </p>
+                        <p class="text-justify">
+                            Komponen Output:
+                        </p>
+                        <p class="text-justify">
+                            1. LED <br> 2.Module Relay <br> 3.LCD 16X2 <br> 4. Buzzer <br> 5. Motor Servo <br> 6. Lampu
+                        </p>
+                        <p class="text-justify">
+                            Mikrokontroler:
+                        </p>
+                        <p class="text-justify">
+                            1. Arduino UNO R3 <br> 2.NodeMCU Esp8266
+                        </p>
+                        <h2 class="font-bold text-gray-700">Apa saja kelebihannya?</h2>
+                        <p class="text-justify px-2">
+                            1. Mendukung pembelajaran pemrograman Mikrokontroler dasar dengan menggunakan Sensor dan beserta output<br> 2. Mendukung pengembangan kemampuan tingkat lanjut dengan penerapan Internet of Things <br> 3. Materi dan Labsheet
+                            dibuat dengan mempertimbangkan Kompetensi Dasar Teknik Kontrol Sistem Mekatronik <br> 4. Desain tata letak dibuat dengan memperhatikan kenyamanan serta motivasi belajar <br>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- section footer -->
+    <section class="w-screen mx-auto py-4 bg-white mt-8 mb-8 shadow-inner ">
+        <div class="text-center ">
+            <a href="# " class="text-indigo-700 hover:text-indigo-900 p-2 ">
+                <i class="fa-2x fab fa-github "></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCDbbM0G_Z7SJMQXTd98x3jw?disable_polymer=true&nv=1 " class="text-indigo-700 hover:text-indigo-900 p-2 ">
+                <i class="fa-2x fab fa-youtube "></i>
+            </a>
+            <a href="https://www.instagram.com/ubaidillah_ym/ " class="text-indigo-700 hover:text-indigo-900 p-2 ">
+                <i class="fa-2x fab fa-instagram "></i>
+            </a>
+        </div>
+        <div class="  text-center mt-4 text-gray-600">
+            <a href="index.html"> &copy;2020 M. Yahya Ubaidillah. All rights reserved.</a>
+        </div>
+    </section>
+    <!-- end footer -->
+</body>
+
+</html>
